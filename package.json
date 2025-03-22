@@ -1,0 +1,22 @@
+{
+  "name": "alab-mongoose",
+  "version": "1.0.0",
+  "description": "Refactored app using Mongoose instead of the native MongoDB driver.",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
